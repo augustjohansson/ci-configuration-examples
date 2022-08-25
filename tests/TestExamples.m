@@ -31,8 +31,8 @@ classdef TestExamples < matlab.unittest.TestCase
             doyActual = dayofyear(dateStr);
 
             % Verify that the two are equal
-            %testCase.verifyEqual(doyActual,doyExpected)
-            testCase.verifyEqual(doyActual,"asdf")
+            testCase.verifyEqual(doyActual,doyExpected)
+            %testCase.verifyEqual(doyActual,"asdf")
         end
 
         function testLeapYear(testCase)
